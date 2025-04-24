@@ -211,7 +211,7 @@ header{
     display: none;
   }
 .nguyendu {
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     bottom: -2px; /* Adjust this value to position the image vertically */
     justify-content: center;
@@ -233,3 +233,7 @@ header{
    width: 100%;
         min-height: 100vh;
 }}
+body{
+  min-width: 100vh !important;
+
+}
